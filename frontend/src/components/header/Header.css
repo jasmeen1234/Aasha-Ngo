@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d88ea;
+    height: 14vh;
+    width: auto;
+}
+/* setting the logo */
+.logo img{
+    height: 12vh;
+    width: auto;
+    margin-left: 2vw; 
+    margin-top: 1vh;
+}
+/* manage the links */
+.nav-links{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30vw;
+}
+/* set the css of links */
+.nav-links a{
+    color: #fcfafa;
+    margin-left: 10vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* remove links bullets */
+ul{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+/* design donate btn */
+.dbtn {
+    background-color: #fefcfb;
+    color: #3d88ea;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 700;
+}
+/* Responsive nav bar */
+@media (max-width: 1024px) {
+    .nav-links a{
+        margin-left: 5vw;
+    }
+
+    .dbtn {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo img{
+        margin-bottom: 10px;
+    }
+
+    .nav-links{
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .dbtn {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links a{
+        font-size: 14px;
+    }
+
+    .dbtn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
