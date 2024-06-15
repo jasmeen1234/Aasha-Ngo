@@ -1,0 +1,20 @@
+.box-mid{
+    background-color: #3d88ea;
+    font-size: 28px;
+    padding: 50px;
+  }
+  .devider{
+    width: 50%;
+    height: 6px;
+    background-color: #fcfafa;
+    margin: 40px;
+    margin-left: 24%;
+  }
+  .p1{
+    margin-top: 30px;
+    margin-left: 17%;
+    margin-right: 10%;
+  }
+  .Welcome{
+    text-align: center;
+    }

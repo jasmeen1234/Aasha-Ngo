@@ -4,8 +4,8 @@ import "./Banner.css"
 import React from 'react'
 import reactLogo1 from "./Ngointro.jpg"
 import reactLogo2 from "./ashaNgo.jpg"
-import reactLogo3 from "./ashaNgo.jpg"
-import reactLogo4 from "./ashaNgo.jpg"
+import reactLogo3 from "./distribute.jpg"
+import reactLogo4 from "./ashaimage.jpg"
 function Banner() {
     return (
       <div>
