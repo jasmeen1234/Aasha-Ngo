@@ -42,6 +42,39 @@ ul{
     margin-bottom: 2vh;
     font-weight: 700;
 }
+/* for text over image */
+/* .join{
+    color: #fcfafa;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 33%;
+  } */
+
+/* for joining button */
+  /* .btn{
+    color: #3d88ea;
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    left: 25%;
+  } */
+
+/* .joinButton{
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  bottom: 50%;
+  left: 27%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #3d88ea;
+  font-weight: 600;
+} */
 /* Responsive nav bar */
 @media (max-width: 1024px) {
     .nav-links a{
